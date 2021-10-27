@@ -1,14 +1,15 @@
 h2 {
-  color:white;
+  color:black;
   font-size: 24px;
-   font-family: 'Arial';
-
+   font-family:'Open Sans', sans-serif;
 }
 
 body {
   background-color: #eff9f0;
   font-family: 'Open Sans', sans-serif;
-  color: white
+  color: black;
+  background-image: url("images/sf.jpg");
+  background-size: cover;
 }
 
 .img-circle {
@@ -24,21 +25,29 @@ body {
   background-color: #2274a5;
   color: white;
   transition: 1s;
-  opacity: 60%;
+}
+
+.container {
+  background-color:#eff9f0 ;
+  opacity: 90%;
+  border-radius: 4px
 }
 
 .btn-blue {
-  background-color: #2274a5;
-  color: white;
+  background-color: #eff9f0;
+  color: black;
   padding: 12px 32px;
   border-radius: 4px;
   display: inline-block;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .card-white {
-  background: #387780;
+  background: #eff9f0;
   border-radius: 2%;
   padding: 30px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,60%);
 }
 
 .text-align {
@@ -62,7 +71,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 500px;
+  width: 1000px;
 }
 
 .format-left {
@@ -80,11 +89,6 @@ body {
   padding: 10px;
 }
 
-.list-inline a :hover {
-  background-color: #c4e0f9;
-  transition: 1s;
-  opacity: 60%;
-}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
