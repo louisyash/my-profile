@@ -27,11 +27,6 @@ body {
   transition: 1s;
 }
 
-.container {
-  background-color:#eff9f0 ;
-  opacity: 90%;
-  border-radius: 4px
-}
 
 .btn-blue {
   background-color: #eff9f0;
@@ -61,18 +56,19 @@ body {
 .icon {
   color: rgb(255,255,255);
   padding: 20px 32px;
-  height: 50px;
+  height: 25%;
+  width: 25%;
   border-radius: 4px;
+}
+
+.icon:hover {
+  background-color: rgb(200,100,100);
 }
 
 .text-center {
   text-align: center;
 }
 
-.container {
-  margin: 0 auto;
-  width: 1000px;
-}
 
 .format-left {
   text-align: left;
